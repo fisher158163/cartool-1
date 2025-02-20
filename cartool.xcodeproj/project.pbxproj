@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6011FF1E2D66D1F7008C32A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6011FF1D2D66D1F7008C32A9 /* CoreGraphics.framework */; };
 		B06C818B17934BA30082BD37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06C818A17934BA30082BD37 /* Foundation.framework */; };
 		B06C818E17934BA30082BD37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B06C818D17934BA30082BD37 /* main.m */; };
 		B06C819217934BA30082BD37 /* cartool.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B06C819117934BA30082BD37 /* cartool.1 */; };
@@ -27,6 +28,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6011FF1D2D66D1F7008C32A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		B06C818717934BA30082BD37 /* cartool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cartool; sourceTree = BUILT_PRODUCTS_DIR; };
 		B06C818A17934BA30082BD37 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B06C818D17934BA30082BD37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6011FF1E2D66D1F7008C32A9 /* CoreGraphics.framework in Frameworks */,
 				B06C819917934BCC0082BD37 /* CoreUI.framework in Frameworks */,
 				B06C818B17934BA30082BD37 /* Foundation.framework in Frameworks */,
 			);
@@ -68,6 +71,7 @@
 		B06C818917934BA30082BD37 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6011FF1D2D66D1F7008C32A9 /* CoreGraphics.framework */,
 				B06C819817934BCC0082BD37 /* CoreUI.framework */,
 				B06C818A17934BA30082BD37 /* Foundation.framework */,
 			);
@@ -126,6 +130,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = B06C817E17934BA30082BD37;
