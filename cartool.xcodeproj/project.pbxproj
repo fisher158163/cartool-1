@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6011FF1E2D66D1F7008C32A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6011FF1D2D66D1F7008C32A9 /* CoreGraphics.framework */; };
 		B06C818B17934BA30082BD37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06C818A17934BA30082BD37 /* Foundation.framework */; };
 		B06C818E17934BA30082BD37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B06C818D17934BA30082BD37 /* main.m */; };
 		B06C819217934BA30082BD37 /* cartool.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B06C819117934BA30082BD37 /* cartool.1 */; };
@@ -42,7 +41,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6011FF1E2D66D1F7008C32A9 /* CoreGraphics.framework in Frameworks */,
 				B06C819917934BCC0082BD37 /* CoreUI.framework in Frameworks */,
 				B06C818B17934BA30082BD37 /* Foundation.framework in Frameworks */,
 			);
@@ -134,7 +132,7 @@
 				en,
 			);
 			mainGroup = B06C817E17934BA30082BD37;
-			productRefGroup = B06C818817934BA30082BD37 /* Products */;
+			productRefGroup = B06C817E17934BA30082BD37;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -245,6 +243,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cartool/cartool-Prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fisher.cartool.core;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -258,6 +258,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cartool/cartool-Prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fisher.cartool.core;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
